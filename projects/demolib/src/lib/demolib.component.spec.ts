@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { DemolibComponent } from './demolib.component';
+
+describe('DemolibComponent', () => {
+  let component: DemolibComponent;
+  let fixture: ComponentFixture<DemolibComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ DemolibComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(DemolibComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
